@@ -6,7 +6,8 @@ public class BankCardAccount {
 	Random random = new Random();
 	private String name;
     private double balance;
-    private int id;
+    private long id;
+   
 
     //constructors -> menyrat se si mund te krijojme objekte te klases
     public BankCardAccount() {
@@ -14,10 +15,11 @@ public class BankCardAccount {
         //primitivet i mbsuh me vlera 0, boolean false, objektet = null
     }
 
-    public BankCardAccount(String name, double balance,int id) {
+    public BankCardAccount(String name, double balance, long id) {
         this.name = name;
         this.balance = balance;
         this.id = id;
+        
     }
 
     //vetit get dhe set
@@ -28,23 +30,18 @@ public class BankCardAccount {
     public String getName() {
         return name;
     }
+    public void setId(long id) {
+    	this.id = id;
+    }
+    public long getId() {
+    	return id;
+    }
 
     public double getBalance() {
         return balance;
     }
     
-    public void setId(int id) {
-    	this.id = id;
-    	
-    	
-  }
-
-   public int getId() {
-	   
-	 
-	return id;
-   }
-
+   
 
     //metoda depozit
     public void deposit(double amount) {
