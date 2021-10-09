@@ -8,8 +8,8 @@ public class DrejtkendeshiT {
 		d1.setA(2.2);
 		d1.setB(3.3);
 		System.out.println("a=> "+d1.getA()+" b=> "+d1.getB()+" syprina=> "+d1.syprinaD());
-		System.out.println("a=> "+d1.getA()+" b=> "+d1.getB()+" syprina=> "+d1.perimetriD());
-		System.out.println("a=> "+d1.getA()+" b=> "+d1.getB()+" syprina=> "+d1.isSquare());
+		System.out.println("a=> "+d1.getA()+" b=> "+d1.getB()+" perimetri=> "+d1.perimetriD());
+		System.out.println("a=> "+d1.getA()+" b=> "+d1.getB()+" aeshteKatror=> "+d1.isSquare());
 
 
 		
